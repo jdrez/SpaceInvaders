@@ -761,51 +761,20 @@ ALIEN_FARTHEST_RIGHT = None
 SAUCER = []
 ALIEN_BULLETS = []
 
-'''
-#TEDDY
-BACKGROUND = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/RingNebula.gif")
-ALIEN10_LARGE = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/10Point.gif")
-ALIEN10_SMALL = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/10PointSmall.gif")
-ALIEN20_LARGE = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/20Point.gif")
-ALIEN20_SMALL = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/20PointSmall.gif")
-ALIEN40_LARGE = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/40Point.gif")
-ALIEN40_SMALL = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/40PointSmall.gif")
-ALIEN_SAUCER_LARGE = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/Mystery.gif")
-ALIEN_SAUCER_DEATH = '/Users/teddy/Desktop/Python Cornell/FinalProject2018/sounds/mysterykilled.wav'
-ALIEN_SAUCER_SMALL = PhotoImage(file="/Users/teddy/Desktop/Python Cornell/FinalProject2018/pleaseGod.gif")
-ALIEN_SAUCER_MUSIC = '/Users/teddy/Desktop/Python Cornell/FinalProject2018/sounds/mysteryentered.wav'
-ALIEN_DEATH_MUSIC = '/Users/teddy/Desktop/Python Cornell/FinalProject2018/sounds/invaderkilled.wav'
-BULLET_SHOOT_MUSIC = '/Users/teddy/Desktop/Python Cornell/FinalProject2018/sounds/shoot.wav'
-SPACE_SHIP_EXPLOSION = '/Users/teddy/Desktop/Python Cornell/FinalProject2018/sounds/explosion.wav'
-'''
 
-# JOSH
-BACKGROUND = PhotoImage(file="/Users/joshuadresner/PycharmProjects/tkinter/venv/include/ring.gif")
+BACKGROUND = PhotoImage(file="images/ring.gif")
 ALIEN10_SMALL = PhotoImage(
-    file="/Users/joshuadresner/PycharmProjects/tkinter/venv/alien10small/Webp.net-resizeimage (5).gif")
-ALIEN20_SMALL = PhotoImage(file="/Users/joshuadresner/PycharmProjects/tkinter/venv/alien20/alien20final.gif")
-ALIEN40_SMALL = PhotoImage(file="/Users/joshuadresner/PycharmProjects/tkinter/venv/include/40/alien40final.gif")
-ALIEN_SAUCER_LARGE = PhotoImage(
-    file="/Users/joshuadresner/PycharmProjects/tkinter/venv/include/mystery/Webp.net-gifmaker.gif")
-ALIEN_SAUCER_DEATH = '/Users/joshuadresner/PycharmProjects/tkinter/venv/include/mysterykilled/mysterykilled .wav'
-ALIEN_SAUCER_SMALL = PhotoImage(file="/Users/joshuadresner/PycharmProjects/tkinter/venv/lib/mysteryfinal.gif")
-ALIEN_SAUCER_MUSIC = 'mysterysound/mysteryenteredcopy.wav'
-ALIEN_DEATH_MUSIC = 'shipexplosion/shipexplosion.wav'
-BULLET_SHOOT_MUSIC = '/Users/joshuadresner/PycharmProjects/tkinter/venv/include/playershoot/playershoot.wav'
-SPACE_SHIP_EXPLOSION = '/Users/joshuadresner/PycharmProjects/tkinter/venv/shipexplosion/shipexplosion.wav'
-"""
-#VIRAJ
-BACKGROUND = PhotoImage(file="/Users/viraj.lunani/Downloads/RingNebula.gif")
-ALIEN10_SMALL = PhotoImage(file="")
-ALIEN20_SMALL = PhotoImage(file="")
-ALIEN40_SMALL = PhotoImage(file="")
-ALIEN_SAUCER_LARGE = PhotoImage(file="/Users/viraj.lunani/Downloads/large_mystery.gif")
-ALINE_SAUCER_DEATH = '/Users/viraj.lunani/Documents/CS1110/Final Project/sounds/mysterykilled.wav'
-ALIEN_SAUCER_SMALL = PhotoImage(file="/Users/viraj.lunani/Downloads/pleaseGod.gif")
-ALIEN_SAUCER_MUSIC = '/Users/viraj.lunani/Documents/CS1110/Final Project/sounds/mysteryentered.wav'
-ALIEN_DEATH_MUSIC = '/Users/viraj.lunani/Documents/CS1110/Final Project/sounds/invaderkilled.wav'
-BULLET_SHOOT_MUSIC = '/Users/viraj.lunani/Documents/CS1110/Final Project/sounds/shoot.wav'
-"""
+    file="images/small.gif")
+ALIEN20_SMALL = PhotoImage(file="images/20small.gif")
+ALIEN40_SMALL = PhotoImage(file="images/40small.gif")
+ALIEN_SAUCER_LARGE = PhotoImage(file="images/mysteryphoto.gif")
+ALIEN_SAUCER_DEATH = 'sounds/mysterykilled .wav'
+ALIEN_SAUCER_SMALL = PhotoImage(file="images/mysteryfinal.gif")
+ALIEN_SAUCER_MUSIC = 'sounds/mysteryenteredcopy.wav'
+ALIEN_DEATH_MUSIC = 'sounds/shipexplosion.wav'
+BULLET_SHOOT_MUSIC = 'sounds/playershoot.wav'
+SPACE_SHIP_EXPLOSION = 'sounds/shipexplosion.wav'
+
 canvas.pack()
 paddle = Paddle(canvas, 'red')
 
